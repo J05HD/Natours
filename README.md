@@ -1,5 +1,5 @@
 # Natours
-Landing page for Natours, a made up tour company
+Landing page for Natours.
 
 style.comp.css are just the styles I have written in an easy to read format.
 
