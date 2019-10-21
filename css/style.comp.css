@@ -12,11 +12,6 @@ $breakpoint arguement choices:
 - tab-land
 - big-desktop 
 
-
-ORDER: base + typography > general layout + grid > page layout > components
-
-In his experience the most important breakpoints are the tab-port and the phone
-
 1em = 16px
 */
 @keyframes moveInLeft {
@@ -98,11 +93,7 @@ body {
     letter-spacing: 3.5rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
-    animation-timing-function: ease-out;
-    /*
-        animation-delay: 3s; 
-        animation-iteration-count: 3;
-        */ }
+    animation-timing-function: ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
         letter-spacing: 1rem;
